@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_without_permission">File access without permission</string>
+    <string name="Scoped">Save photo to gallery by camera </string>
+    <string name="change_and_open_file">Open and change file</string>
+    <string name="show_photo">Show photo from external storage</string>
+    <string name="external_storage">external Storage</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="save_file">Save file</string>
+</resources>

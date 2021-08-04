@@ -3,6 +3,10 @@
     package="com.example.storage">
 
     <application android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".WorkWithFileActivity" />
+        <activity android:name=".ExternalStorageActivity" />
+        <activity android:name=".ScopedStorageActivity" />
+        <activity android:name=".FileWithoutPermissionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
