@@ -8,4 +8,5 @@
     <string name="internal_storage">Internal storage</string>
     <string name="save_file">Save file</string>
     <string name="chose_file">Chose File</string>
+    <string name="do_photo">Do photo</string>
 </resources>
