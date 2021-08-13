@@ -4,4 +4,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/withoutPermissionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_without_permission" />
+
+    <Button
+        android:id="@+id/savePhotoByCameraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Scoped" />
+
+    <Button
+        android:id="@+id/photoInStorageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_photo" />
+
+    <Button
+        android:id="@+id/workWithFileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_and_open_file" />
+</LinearLayout>
